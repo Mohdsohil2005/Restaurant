@@ -1,32 +1,40 @@
-.navbar{
+.navbar {
     flex-direction: column;
 }
-.navbar ul li a{
-font-size: 1rem;
-padding: 0px 7px;
+
+.navbar ul li a {
+    font-size: 1rem;
+    padding: 0px 7px;
 }
-.home{
+
+.home {
     height: 395px;
     padding: 40px 68px;
 }
-.home p{
+
+.home p {
     font-size: 13px;
 }
-.h-primary-1{
+
+.h-primary-1 {
     font-size: 26px;
     margin-top: 0px;
 }
-.button{
+
+.button {
     font-size: 13px;
     padding: 4px 8px;
 }
-.home::before{
+
+.home::before {
     height: 480px;
 }
-#services{
+
+#services {
     flex-direction: column;
 }
-#services .box{
+
+#services .box {
     padding: 14px;
     margin: 3px 0px;
     margin-bottom: 20px;

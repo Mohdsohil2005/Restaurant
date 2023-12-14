@@ -6,7 +6,8 @@
 :root {
   --navbar-height: 59px;
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
 
@@ -72,7 +73,7 @@ html{
 
 .home::before {
   content: "";
-  background: url('https://images.pexels.com/photos/3850838/pexels-photo-3850838.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center/cover;
+  background: url('img2.jpg') no-repeat center/cover;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -81,7 +82,8 @@ html{
   z-index: -1;
   opacity: 0.89;
 }
-.home img{
+
+.home img {
   border-radius: 100%;
   height: 200px;
   width: 150px;
@@ -89,12 +91,13 @@ html{
 
 .home h1 {
   color: #D2AC47;
-  text-align: center;
+  /* text-align: center; */
+  /* margin-left: 200px; */
 
 }
 
 .home p {
-  color:white;
+  color: white;
   text-align: center;
   font-size: 1.5rem;
 }
@@ -104,7 +107,8 @@ html{
   padding: 12px;
   text-align: center;
 }
-.h-primary{
+
+.h-primary {
   font-size: 3.8rem;
   margin-top: 82px;
   text-align: center;
@@ -117,9 +121,9 @@ html{
 }
 
 .button {
-  border: 2px solid white;
+  border: 2px solid black;
   padding: 6px 20px;
-  background: none;
+  background: black;
   color: white;
   margin: 20px;
   cursor: pointer;
@@ -128,23 +132,27 @@ html{
 }
 
 .button:hover {
-  color: white;
+  color: black;
   border: 2px solid black;
   box-shadow: 0px 0px 20px 8px black;
+  background: none;
 }
 
 #services {
   margin: 34px;
   display: flex;
 }
+
 .box p {
   text-decoration: none;
   color: black;
 
 }
-.box h2{
+
+.box h2 {
   color: black;
 }
+
 #services #box1 {
   border-bottom: 4px solid #FFB7C3;
 }
@@ -161,7 +169,7 @@ html{
 #services #box1:hover {
   background-color: #FFB7C3;
   color: white;
-}  
+}
 
 #services #box2:hover {
   background-color: #a8f7d7;
@@ -197,45 +205,54 @@ html{
 .box img {
   border-radius: 30%;
 }
-.contact{
+
+.contact {
   height: 300px;
   width: 100%;
   display: flex;
   background-color: rgb(224, 224, 224);
 }
-.big-box-1 h2{
+
+.big-box-1 h2 {
   margin-bottom: 30px;
   text-align: center;
 
 }
-.big-box-1 h4{
+
+.big-box-1 h4 {
   color: rgb(110, 109, 109);
 }
-.big-box-1{
-  width:370px ;
+
+.big-box-1 {
+  width: 370px;
   height: 200px;
   align-items: center;
   justify-content: center;
   margin: 40px 0 0 80px;
 }
-.big-box-2 h2{
+
+.big-box-2 h2 {
   margin-bottom: 30px;
   text-align: center;
 }
-.big-box-2{
-  width:240px ;
+
+.big-box-2 {
+  width: 240px;
   height: 200px;
   margin: 40px 120px 0 80px;
 }
-.big-box-2 h4{
+
+.big-box-2 h4 {
   color: rgb(110, 109, 109);
 }
-.big-box-3 h2{
- margin: 100px 0 0 0;
+
+.big-box-3 h2 {
+  margin: 100px 0 0 0;
   text-align: center;
 }
-.big-box-3 img{
+
+.big-box-3 img {
   height: 30px;
   width: 30px;
-  margin: 0  8px 0 0px;
+  margin: 0 8px 0 0px;
 }
